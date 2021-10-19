@@ -1,4 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #3A506B;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
 }
+
+a, a:visited, a:active{
+  font-weight: bold;
+  color: #B5838D;
+  text-decoration: none;
+}
+
+.header a {
+  float: left;
+  color: #E5989B;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #FFB4A2
+}
+/*
+a {
+  text-decoration: none;
+} */
