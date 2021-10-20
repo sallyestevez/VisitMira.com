@@ -18,18 +18,16 @@ body, html {
 }
 
 .header1 {
-  width: 25%;
+  width: 30%;
   display: flex;
-  padding-left: 10px;
+  padding-left: 20px;
   justify-content: flex-start;
-  /* align-items: flex-end; */
 }
 
 .header2 {
-  width: 75%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
-  /* align-items: flex-end; */
 }
 
 a, a:visited, a:active{
