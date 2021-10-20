@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Fascinate+Inline&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -6,26 +8,42 @@ body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #3A506B;
+  background-color: #A7F0E6;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
+  background-color: #55A8AA;
+}
+
+.header1 {
+  width: 25%;
+  display: flex;
+  padding-left: 10px;
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+}
+
+.header2 {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: flex-end; */
 }
 
 a, a:visited, a:active{
   font-weight: bold;
-  color: #B5838D;
+  color: #3A506B;
   text-decoration: none;
 }
 
 .header a {
   float: left;
-  color: #E5989B;
+  color: #3A506B;
   text-decoration: none;
 }
 
 .header a:hover {
-  color: #FFB4A2
+  color: #5BC0BE;
 }
