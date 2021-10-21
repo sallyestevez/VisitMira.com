@@ -16,6 +16,7 @@ body, html {
   display: flex;
   justify-content: space-around;
   background-color: #55A8AA;
+  font-size: 16px;
 }
 
 .header1 {
@@ -44,7 +45,7 @@ a, a:visited, a:active {
 }
 
 .header a:hover {
-  color: #5BC0BE;
+  color: #0B132B;
 }
 
 .tagline {
@@ -53,7 +54,7 @@ a, a:visited, a:active {
 }
 
 .section1 {
-  background-color: #1C2541;
+  background-color: rgba(28, 37, 65, .8);
   padding: 20px;
 }
 
@@ -79,11 +80,13 @@ a, a:visited, a:active {
   color: #DFE1E2;
   font-size: 18px;
   width: 50%;
+  color: #5BC0BE;
+  font-weight: bold;
 }
 
 .questions {
   background-color: #436C80;
-  color: #5BC0BE;
+  color: #A7F0E6;
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -92,6 +95,7 @@ a, a:visited, a:active {
 .question {
   font-size: 20px;
   color: #6FFFE9;
+  font-weight: bold;
 }
 
 .info {
@@ -102,7 +106,7 @@ a, a:visited, a:active {
   padding: 75px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #A7F0E6;
+  color: #5BC0BE;
 }
 
 #miraimg {
@@ -197,8 +201,14 @@ h2 {
   height: auto;
   padding-left: 50px;
   padding-right: 50px;
+  color: #5BC0BE;
 }
 
+.New_LA {
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+}
 .NLA_img {
   width: 100%;
 }
