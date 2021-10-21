@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Fascinate+Inline&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Didact+Gothic&family=Expletus+Sans&family=Heebo&family=Istok+Web&family=Jost&family=Kranky&family=Manjari&family=Megrim&family=Palette+Mosaic&family=Quicksand&family=Sen&family=Sigmar+One&family=Telex&family=Tenor+Sans&family=Thasadith&family=Train+One&family=Urbanist&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,8 @@ body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #A7F0E6;
+  background-color: #4B8895;
+  font-family: 'Jost', sans-serif;
 }
 
 .header {
@@ -30,7 +31,7 @@ body, html {
   justify-content: space-around;
 }
 
-a, a:visited, a:active{
+a, a:visited, a:active {
   font-weight: bold;
   color: #3A506B;
   text-decoration: none;
@@ -44,4 +45,47 @@ a, a:visited, a:active{
 
 .header a:hover {
   color: #5BC0BE;
+}
+
+.tagline {
+  text-align: center;
+}
+
+.mira {
+  width: 100%;
+  background-image: url("images/Mira.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.mira1 {
+  font-size: 30px;
+  align-self: flex-end;
+}
+
+.mira2 {
+  font-size: 18px;
+}
+
+.info {
+  background-color: #463ff3;
+  /* text-align: center; */
+
+}
+
+.faqs {
+  padding: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#miraimg {
+  text-align: center;
+  width: 300px;
 }
