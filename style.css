@@ -49,6 +49,12 @@ a, a:visited, a:active {
 
 .tagline {
   text-align: center;
+  color: #A7F0E6;
+}
+
+.section1 {
+  background-color: #1C2541;
+  padding: 20px;
 }
 
 .mira {
@@ -64,28 +70,170 @@ a, a:visited, a:active {
   padding: 20px;
 }
 
-.mira1 {
+.mira1, .primordia1, .noctilum1, .oblivia1, .sylvalum1, .cauldros1 {
   font-size: 30px;
   align-self: flex-end;
 }
 
-.mira2 {
+.mira2, .primordia2, .noctilum2, .oblivia2, .sylvalum2, .cauldros2 {
+  color: #DFE1E2;
   font-size: 18px;
+  width: 50%;
+}
+
+.questions {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.question {
+  font-size: 20px;
+  color: #6FFFE9;
 }
 
 .info {
-  background-color: #463ff3;
-  /* text-align: center; */
-
+  background-color: #3A506B;
 }
 
 .faqs {
-  padding: 100px;
+  padding: 75px;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #A7F0E6;
 }
 
 #miraimg {
+  width: 100%;
+}
+
+h2 {
   text-align: center;
-  width: 300px;
+}
+
+.primordia_description {
+  width: 100%;
+  background-image: url("images/primordia/Primordia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.noctilum_description {
+  width: 100%;
+  background-image: url("images/noctilum/Noctilum.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.oblivia_description {
+  width: 100%;
+  background-image: url("images/oblivia/Oblivia.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.sylvalum_description {
+  width: 100%;
+  background-image: url("images/sylvalum/Sylvalum.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.cauldros_description {
+  width: 100%;
+  background-image: url("images/cauldros/Cauldros.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  color: #DFE1E2;
+  padding: 20px;
+}
+
+.location_tagline {
+  text-align: center;
+  font-size: 30px;
+  color: #A7F0E6;
+}
+
+.locations {
+  background-color: #3A506B;
+  padding: 20px;
+}
+
+.NLA {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.NLA_img {
+  width: 100%;
+}
+
+.areas {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.areas1, .areas2, .areas3, .areas4 {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex: 1;
+}
+
+/* .areas2 {
+  background-color: #436C80;
+  color: #5BC0BE;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  flex:1;
+} */
+
+.noctilum_img {
+  width: 100%;
 }
