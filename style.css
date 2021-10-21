@@ -224,16 +224,6 @@ h2 {
   flex: 1;
 }
 
-/* .areas2 {
-  background-color: #436C80;
-  color: #5BC0BE;
-  padding: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  flex:1;
-} */
-
 .primordia_img, .noctilum_img, .oblivia_img, .sylvalum_img, .cauldros_img {
   width: 100%;
 }
