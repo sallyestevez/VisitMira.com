@@ -215,7 +215,7 @@ h2 {
   display: flex;
 }
 
-.areas1, .areas2, .areas3, .areas4 {
+.areas1, .areas2, .areas3 {
   background-color: #436C80;
   color: #5BC0BE;
   padding: 20px;
@@ -234,6 +234,6 @@ h2 {
   flex:1;
 } */
 
-.noctilum_img {
+.primordia_img, .noctilum_img, .oblivia_img {
   width: 100%;
 }
